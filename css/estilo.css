@@ -12,7 +12,7 @@ body{
     display: flex;
     flex-flow: row wrap;
     height: 100px;
-    background: white;
+    background:rgb(54, 54, 54);
     box-shadow: 0.5px 1px 3px rgba(0, 0, 0, 0.055);
     justify-content: center;
     align-items: center;
@@ -22,15 +22,13 @@ body{
 
 .logo{
     flex:20%;
-    margin-left:10%;
+    margin-left:7%;
      /* border:1px solid red;  */
     text-align: left;
 }
 
-.logo h1{
-    font-family: 'Lobster', cursive;
-    color:#180F4A;
-    font-size:34px;
+.logo img{
+    height: 80px;
 }
 
 .menu{
@@ -41,19 +39,21 @@ body{
 }
 
 .menu a{
-    color:#180F4A;
+    color:white;
     text-decoration: none;
     font-size:20px;
     padding:20px 16px; 
 }
 
 .menu a:hover{
-    color:#FF2978;
-    border-top:4px solid #180F4A;
+    color:#0094ffff;    ;
+    border-top:4px solid #0094ffff;
 }
 
+
 #botao{
-    background: #180F4A;
+    position: relative;
+    background: #0094ffff;
     padding: 10px 25px;
     color:white;
     border-radius:5px;
@@ -63,7 +63,7 @@ body{
 
 #botao:hover{
     border:none;
-    background: #FF2978;
+    background: gray;
 }
 
 header {
@@ -83,6 +83,7 @@ header {
 }
 
 .slides {
+    position: relative;
     width: 400%;
     height: 400px;
     display: flex;

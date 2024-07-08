@@ -1,3 +1,10 @@
+@charset "UT-8";
+
+:root {
+    --primary-color:var(rgb(54, 54, 54);)
+    
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;

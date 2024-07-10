@@ -312,22 +312,6 @@ body {
     font-size: 20px;
     letter-spacing: 2px;
 }
-.Products{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row wrap;
-    background-color: azure;
-    height: 400px;
-    width: 100%;
-}
 
-.Card-Product{
-    position: relative;
-    border-radius: 50%;
-    background-color: black;
-    height: 200px;
-    width: 200px;
-}
 
 

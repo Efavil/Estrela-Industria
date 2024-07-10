@@ -1,14 +1,163 @@
 /* Smartphones (600px para baixo) */
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) and (max-width: 600px) {
+    .Materiais div {
+        width: 100%;
+    }
+
+    .Text-1 {
+        order: -1;
+    }
+
+    .Card-1 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Card-2 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Card-2 div {
+        bottom: 0;
+        right: 0;
+    }
+
+    .Text-1 {
+        justify-content: center;
+    }
+
+    .Text-1 p {
+        padding-left: 0;
+    }
+
+    .Text-2 {
+        justify-content: center;
+    }
+
+    .Text-2 p {
+        margin-bottom: 0;
+        padding-right: 0;
+    }
+
+    .Text p {
+        font-size: 10px;
+    }
+
+    .Text h1 {
+        font-size: 25px;
+    }
+    .Card-Product {
+        height: 60px;
+        width: 60px;
+        bottom: 50px;
+    }
+}
 
 /* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
-@media screen and (min-width: 600px) {}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .Materiais div {
+        width: 100%;
+    }
+
+    .Text-1 {
+        order: -1;
+    }
+
+    .Card-1 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Card-2 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Card-2 div {
+        bottom: 0;
+        right: 0;
+    }
+
+    .Text-1 {
+        justify-content: center;
+    }
+
+    .Text-1 p {
+        padding-left: 0;
+    }
+
+    .Text-2 {
+        justify-content: center;
+    }
+
+    .Text-2 p {
+        margin-bottom: 0;
+        padding-right: 0;
+    }
+
+    .Card-Product {
+        height: 100px;
+        width: 100px;
+    }
+
+}
 
 /*Dispostivos Médios (Tablets deitados, 768px para cima) */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .Materiais div {
+        width: 100%;
+    }
+
+    .Text-1 {
+        order: -1;
+    }
+
+    .Card-1 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Card-2 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Card-2 div {
+        bottom: 0;
+        right: 0;
+    }
+
+    .Text-1 {
+        justify-content: center;
+    }
+
+    .Text-1 p {
+        padding-left: 0;
+    }
+
+    .Text-2 {
+        justify-content: center;
+    }
+
+    .Text-2 p {
+        margin-bottom: 0;
+        padding-right: 0;
+    }
+    .Card-Product {
+        height: 150px;
+        width: 150px;
+    }
+
+}
 
 /* Dispostivos Largos (laptops/desktops, 992px para cima) */
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    .Materiais div {
+        width: 50%;
+    }
+
+}
 
 /* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
-@media screen and (min-width:1200px){}
+@media screen and (min-width:1200px) {}

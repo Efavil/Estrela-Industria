@@ -313,5 +313,97 @@ body {
     letter-spacing: 2px;
 }
 
+.pilares {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    border: 3px solid rgb(75, 187, 10);
+    background-color: white;
+    margin-top: -10px;
+}
+
+.pilares .triangulo {
+    position: relative;
+    margin: 0 150px;
+    width: 12%;
+    aspect-ratio: 1;
+    transform: rotate(45deg);
+    transition: transform 1s ease-in-out;
+    background-color: #0094ffff;
+    border-radius: 60px;
+    border: 7px solid white;
+    box-shadow: 0 13px 23px rgba(0, 0, 0, 0.24);
+    overflow: hidden;
+}
+
+.triangulo:hover {
+    transform: none;
+    transition: transform 1s ease-in-out;
+}
+
+.triangulo:hover img {
+    display: none;
+}
+
+.triangulo:hover h2{
+    display: block;
+    color:  rgb(54, 54, 54);
+    text-align: center;
+}
+
+.triangulo:hover p{
+    display: block;
+    color:  rgb(54, 54, 54);
+    text-align: center;
+    font-size: 20px;
+}
+
+.triangulo img {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    transform: rotate(-45deg);
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.triangulo h2, .triangulo p{
+    display: none;
+}
+
+#ic1 {
+    position: relative;
+    top: 35px;
+    left: 15px;
+}
+
+#ic2 {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+#ic3 {
+    position: relative;
+    top: 20px;
+    left: 35px;
+}
 
 
+footer {
+    background: rgb(54, 54, 54);
+    border: 3px solid red;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 80px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}

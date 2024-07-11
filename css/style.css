@@ -318,8 +318,8 @@ body {
     align-items: center;
     justify-content: space-around;
     height: 400px;
-    width: 100%;
-    border: 3px solid rgb(75, 187, 10);
+    width: 99%;
+    /* border: 3px solid rgb(75, 187, 10); */
     background-color: white;
     position: relative;
 }
@@ -333,6 +333,7 @@ body {
     border-radius: 60px;
     border: 7px solid white;
     box-shadow: 0 13px 23px rgba(0, 0, 0, 0.24);
+    margin-left: 30px;
 }
 
 .triangulo:hover {
@@ -392,17 +393,64 @@ body {
     justify-content: space-around;
 }
 
-
 footer {
     background: rgb(54, 54, 54);
-    border: 3px solid red;
     color: white;
     text-align: center;
     padding: 20px 0;
-    margin-top: 80px;
 }
 
 .footer-container {
+    display: flex;
+    align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.footer-left,
+.footer-right {
+    width: 45%;
+}
+
+.footer-left p {
+    margin: 5px 0;
+    text-align: start;
+}
+
+.footer-left a,
+.footer-right a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-left a:hover,
+.footer-right a:hover {
+    text-decoration: underline;
+}
+
+.footer-middle {
+    width: 20%;
+    text-align: center;
+    display: flex;
+}
+
+.footer-middle hr {
+    border: none;
+    border-left: 2px solid white;
+    height: 100px;
+    position: relative;
+    left: 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    border-top: 0.5px solid rgba(255, 255, 255, 0.349);
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-top: 20px;
 }

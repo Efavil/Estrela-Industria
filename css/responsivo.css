@@ -1,5 +1,5 @@
 /* Smartphones (600px para baixo) */
-@media screen and (max-width: 600px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .Materiais div {
         width: 100%;
     }
@@ -52,6 +52,21 @@
         width: 60px;
         bottom: 50px;
     }
+    
+
+    .pilares {
+        flex-direction: column;
+        height: 50%;
+        
+    }
+
+    .pilares .triangulo {
+        margin-bottom: 180px;
+        margin-top: 150px;
+        width: 40%;
+        aspect-ratio: 1;
+    }
+
 }
 
 /* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
@@ -99,6 +114,19 @@
     .Card-Product {
         height: 100px;
         width: 100px;
+    }
+
+    .pilares {
+        flex-direction: column;
+        height: 50%;
+        
+    }
+
+    .pilares .triangulo {
+        margin-bottom: 180px;
+        margin-top: 150px;
+        width: 30%;
+        aspect-ratio: 1;
     }
 
 }
@@ -149,12 +177,31 @@
         width: 150px;
     }
 
+    .pilares {
+        flex-direction: column;
+        height: 50%;
+        
+    }
+
+    .pilares .triangulo {
+        margin-bottom: 180px;
+        margin-top: 150px;
+        width: 25%;
+        aspect-ratio: 1;
+    }
+
 }
 
 /* Dispostivos Largos (laptops/desktops, 992px para cima) */
 @media screen and (min-width: 992px) and (max-width:1200px) {
     .Materiais div {
         width: 50%;
+    }
+
+    .pilares .triangulo {
+        width: 30%;
+        aspect-ratio: 1;
+        margin: 80px;
     }
 
 }

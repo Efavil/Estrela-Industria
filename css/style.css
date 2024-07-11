@@ -316,17 +316,15 @@ body {
 .pilares {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 400px;
     width: 100%;
     border: 3px solid rgb(75, 187, 10);
     background-color: white;
-    margin-top: -10px;
+    position: relative;
 }
 
 .pilares .triangulo {
-    position: relative;
-    margin: 0 150px;
     width: 12%;
     aspect-ratio: 1;
     transform: rotate(45deg);
@@ -335,7 +333,6 @@ body {
     border-radius: 60px;
     border: 7px solid white;
     box-shadow: 0 13px 23px rgba(0, 0, 0, 0.24);
-    overflow: hidden;
 }
 
 .triangulo:hover {
@@ -361,13 +358,7 @@ body {
 }
 
 .triangulo img {
-    position: absolute;
-    top: 0px;
-    left: 0;
-    transform: rotate(-45deg);
-    width: 300px;
-    height: 100%;
-    object-fit: cover;
+    transform:rotate(-45deg);
 
 }
 
@@ -391,6 +382,14 @@ body {
     position: relative;
     top: 20px;
     left: 35px;
+}
+
+.titulo-triangulo {
+    z-index: 100;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 

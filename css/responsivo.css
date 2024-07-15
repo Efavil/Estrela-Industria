@@ -1,5 +1,22 @@
 /* Smartphones (600px para baixo) */
 @media screen and (max-width: 600px) {
+
+    .navbar {
+        position: absolute;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-hamb {
+        display: flex;
+    }
+
+    .hamburguer {
+        display: flex;
+    }
+
     .Materiais div {
         width: 100%;
     }
@@ -62,15 +79,81 @@
 
     .pilares .triangulo {
         margin-bottom: 180px;
-        margin-top: 150px;
-        width: 40%;
+        margin-top: 130px;
+        width: 250px;
         aspect-ratio: 1;
     }
+
+    .triangulo img {
+        width: 160px;
+    }
+
+    #ic1 {
+        top: 40px;
+        left: 50px;
+    }
+    
+    #ic2 {
+        top: 80px;
+        left: 50px;
+    }
+    
+    #ic3 {
+        top: 50px;
+        left: 50px;
+    }
+
+    .titulo-triangulo {
+        height: 1300px;
+        top: 400px;
+        left: 0;
+    }
+
+    #tt1 {
+        position: absolute;
+        left: 190px;
+        top: 50px;
+     }
+    
+     #tt2 {
+        position: absolute;
+        left: 190px;
+        top: 630px;
+     }
+    
+     #tt3 {
+        position: absolute;
+        left: 190px;
+        top: 1200px;
+     }
+
+     .footer-middle hr {
+        position: relative;
+        left: 35px;
+    }
+
 
 }
 
 /* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
 @media screen and (min-width: 600px) and (max-width: 768px) {
+
+    .navbar {
+        position: absolute;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-hamb {
+        display: flex;
+    }
+
+    .hamburguer {
+        display: flex;
+    }
+
     .Materiais div {
         width: 100%;
     }
@@ -125,14 +208,76 @@
     .pilares .triangulo {
         margin-bottom: 180px;
         margin-top: 150px;
-        width: 30%;
+        width: 250px;
         aspect-ratio: 1;
+    }
+
+    #ic1 {
+        top: 40px;
+        left: 50px;
+    }
+    
+    #ic2 {
+        top: 90px;
+        left: 60px;
+    }
+    
+    #ic3 {
+        top: 60px;
+        left: 60px;
+    }
+
+    .titulo-triangulo {
+        height: 1400px;
+        width: 100%;
+        top: 400px;
+        left: 0;
+    }
+
+    #tt1 {
+        position: absolute;
+        left: 320px;
+        top: 70px;
+     }
+    
+     #tt2 {
+        position: absolute;
+        left: 325px;
+        top: 670px;
+     }
+    
+     #tt3 {
+        position: absolute;
+        left: 320px;
+        top: 1260px;
+     }
+
+     .footer-middle hr {
+        position: relative;
+        left: 20px;
     }
 
 }
 
 /*Dispostivos Médios (Tablets deitados, 768px para cima) */
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .navbar {
+        position: absolute;
+    }
+    
+    .menu {
+        display: none;
+    }
+
+    .menu-hamb {
+        display: flex;
+    }
+
+    .hamburguer {
+        display: flex;
+    }
+
     .Materiais div {
         width: 100%;
     }
@@ -186,25 +331,78 @@
     .pilares .triangulo {
         margin-bottom: 180px;
         margin-top: 150px;
-        width: 25%;
+        width: 200px;
         aspect-ratio: 1;
+    }
+
+    .titulo-triangulo {
+        height: 1300px;
+        left: 0;
+        top: 410px;
+    }
+
+    #tt1 {
+        position: absolute;
+        left: 400px;
+        top: 0px;
+     }
+    
+     #tt2 {
+        position: absolute;
+        left: 400px;
+        top: 535px;
+     }
+    
+     #tt3 {
+        position: absolute;
+        left: 400px;
+        top: 1080px;
+     }
+
+     .footer-middle hr {
+        position: relative;
+        left: 15px;
     }
 
 }
 
 /* Dispostivos Largos (laptops/desktops, 992px para cima) */
 @media screen and (min-width: 992px) and (max-width:1200px) {
+
     .Materiais div {
         width: 50%;
     }
 
     .pilares .triangulo {
-        width: 30%;
+        width: 200px;
         aspect-ratio: 1;
-        margin: 80px;
     }
 
-}
+    .triangulo img {
+        transform:rotate(-45deg);
+    
+    }
 
-/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
-@media screen and (min-width:1200px) {}
+    .titulo-triangulo {
+        left: 20px;
+    }
+
+    #ic1 {
+        position: relative;
+        top: 20px;
+        left: 25px;
+    }
+    
+    #ic2 {
+        position: relative;
+        top: 60px;
+        left: 35px;
+    }
+    
+    #ic3 {
+        position: relative;
+        top: 40px;
+        left: 35px;
+    }    
+
+}

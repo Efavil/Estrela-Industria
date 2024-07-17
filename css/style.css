@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-flow: row;
     height: 100px;
-    background: rgb(54, 54, 54);
+    background: rgb(37, 37, 37);
     box-shadow: 0.5px 1px 3px rgba(0, 0, 0, 0.055);
     /* border: 1px solid rgb(234, 238, 14); */
     justify-content: center;
@@ -157,7 +157,7 @@ body {
     z-index: 2;
     height: 900px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.644);
+    background-color: rgba(0, 0, 0, 0.863);
 }
 
 

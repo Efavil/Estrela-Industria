@@ -17,6 +17,26 @@
         display: flex;
     }
 
+    #Image{
+        height: 500px;
+    }
+    .text h1 {
+        font-size: 20px;
+        position: relative;
+        bottom: 220px;
+    }
+    .text h3 {
+        font-size: 8px;
+        bottom: 230px;
+        right: -10px;
+    }
+    
+    #p-image{
+        position: relative;
+        font-size: 10px;
+        width: 300px;
+        bottom: 180px;
+    }
 
     .textImage {
         width: 10%;
@@ -111,26 +131,25 @@
     }
 
     .titulo-triangulo {
-        height: 1300px;
         top: 400px;
         left: 0;
     }
 
     #tt1 {
         position: absolute;
-        left: 190px;
+        left: 110px;
         top: 50px;
      }
     
      #tt2 {
         position: absolute;
-        left: 190px;
+        left: 110px;
         top: 630px;
      }
     
      #tt3 {
         position: absolute;
-        left: 190px;
+        left: 110px;
         top: 1200px;
      }
 
@@ -138,7 +157,9 @@
         position: relative;
         left: 35px;
     }
-
+    #Card-Image img:hover{
+        display: none;
+    }
 
 }
 
@@ -235,7 +256,6 @@
     }
 
     .titulo-triangulo {
-        height: 1400px;
         width: 100%;
         top: 400px;
         left: 0;
@@ -262,6 +282,9 @@
      .footer-middle hr {
         position: relative;
         left: 20px;
+    }
+    #Card-Image img:hover{
+        display: none;
     }
 
 }
@@ -343,7 +366,6 @@
     }
 
     .titulo-triangulo {
-        height: 1300px;
         left: 0;
         top: 410px;
     }
@@ -369,6 +391,9 @@
      .footer-middle hr {
         position: relative;
         left: 15px;
+    }
+    #Card-Image img:hover{
+        display: none;
     }
 
 }
@@ -411,5 +436,11 @@
         top: 40px;
         left: 35px;
     }    
+    #Card-Image img:hover{
+        display: none;
+    }
+    #Card-Image{
+        justify-content: center;
+    }
 
 }

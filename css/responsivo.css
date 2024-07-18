@@ -98,61 +98,6 @@
     }
     
 
-    .pilares {
-        flex-direction: column;
-        height: 50%;
-        
-    }
-
-    .pilares .triangulo {
-        margin-bottom: 180px;
-        margin-top: 130px;
-        width: 250px;
-        aspect-ratio: 1;
-    }
-
-    .triangulo img {
-        width: 160px;
-    }
-
-    #ic1 {
-        top: 40px;
-        left: 50px;
-    }
-    
-    #ic2 {
-        top: 80px;
-        left: 50px;
-    }
-    
-    #ic3 {
-        top: 50px;
-        left: 50px;
-    }
-
-    .titulo-triangulo {
-        top: 400px;
-        left: 0;
-    }
-
-    #tt1 {
-        position: absolute;
-        left: 110px;
-        top: 50px;
-     }
-    
-     #tt2 {
-        position: absolute;
-        left: 110px;
-        top: 630px;
-     }
-    
-     #tt3 {
-        position: absolute;
-        left: 110px;
-        top: 1200px;
-     }
-
      .footer-middle hr {
         position: relative;
         left: 35px;
@@ -160,6 +105,17 @@
     #Card-Image img:hover{
         display: none;
     }
+
+    .Card-1 div p {
+        margin: 0px 15px;
+        padding-top: 35px;
+    }
+
+    .Card-2 div p {
+        margin: 0px 15px;
+        margin-top: 30px;
+    }
+
 
 }
 
@@ -200,6 +156,7 @@
         align-items: center;
     }
 
+
     .Card-2 div {
         bottom: 0;
         right: 0;
@@ -227,57 +184,6 @@
         width: 100px;
     }
 
-    .pilares {
-        flex-direction: column;
-        height: 50%;
-        
-    }
-
-    .pilares .triangulo {
-        margin-bottom: 180px;
-        margin-top: 150px;
-        width: 250px;
-        aspect-ratio: 1;
-    }
-
-    #ic1 {
-        top: 40px;
-        left: 50px;
-    }
-    
-    #ic2 {
-        top: 90px;
-        left: 60px;
-    }
-    
-    #ic3 {
-        top: 60px;
-        left: 60px;
-    }
-
-    .titulo-triangulo {
-        width: 100%;
-        top: 400px;
-        left: 0;
-    }
-
-    #tt1 {
-        position: absolute;
-        left: 320px;
-        top: 70px;
-     }
-    
-     #tt2 {
-        position: absolute;
-        left: 325px;
-        top: 670px;
-     }
-    
-     #tt3 {
-        position: absolute;
-        left: 320px;
-        top: 1260px;
-     }
 
      .footer-middle hr {
         position: relative;
@@ -352,43 +258,7 @@
         width: 150px;
     }
 
-    .pilares {
-        flex-direction: column;
-        height: 50%;
-        
-    }
-
-    .pilares .triangulo {
-        margin-bottom: 180px;
-        margin-top: 150px;
-        width: 200px;
-        aspect-ratio: 1;
-    }
-
-    .titulo-triangulo {
-        left: 0;
-        top: 410px;
-    }
-
-    #tt1 {
-        position: absolute;
-        left: 400px;
-        top: 0px;
-     }
-    
-     #tt2 {
-        position: absolute;
-        left: 400px;
-        top: 535px;
-     }
-    
-     #tt3 {
-        position: absolute;
-        left: 400px;
-        top: 1080px;
-     }
-
-     .footer-middle hr {
+    .footer-middle hr {
         position: relative;
         left: 15px;
     }
@@ -404,38 +274,7 @@
     .Materiais div {
         width: 50%;
     }
-
-    .pilares .triangulo {
-        width: 200px;
-        aspect-ratio: 1;
-    }
-
-    .triangulo img {
-        transform:rotate(-45deg);
     
-    }
-
-    .titulo-triangulo {
-        left: 20px;
-    }
-
-    #ic1 {
-        position: relative;
-        top: 20px;
-        left: 25px;
-    }
-    
-    #ic2 {
-        position: relative;
-        top: 60px;
-        left: 35px;
-    }
-    
-    #ic3 {
-        position: relative;
-        top: 40px;
-        left: 35px;
-    }    
     #Card-Image img:hover{
         display: none;
     }
@@ -443,4 +282,26 @@
         justify-content: center;
     }
 
+}
+
+@media screen and (max-width: 993px) {
+    
+    .pilares {
+        flex-direction: column;
+        height: 60%;
+        
+    }
+    
+    .box-triangulo {
+        width: 600px;
+        padding: 10px 0;
+    }
+
+    .triangulo {
+        width: 230px;
+    }
+
+    .titulo-triangulo {
+        margin-top: 40px;
+    }
 }

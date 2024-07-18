@@ -88,7 +88,7 @@ body {
     color: white;
     width: 100vw;
     height: 278px;
-    background:linear-gradient(to top , rgb(20, 20, 20),rgb(54, 54, 54));
+    background-color: rgb(37, 37, 37);
     text-align: center;
 
 }
@@ -231,6 +231,10 @@ body {
     box-shadow: 0 13px 23px rgba(0, 0, 0, 0.24);
 }
 
+.Card-2 > #Card-Image > div > p {
+    padding-top: 10px;
+}
+
 .Text-2 p {
     margin-bottom: 180px;
     padding-right: 13%;
@@ -368,38 +372,57 @@ body {
     position: relative;
 }
 
-.pilares .triangulo {
-    width: 200px;
+.box-triangulo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    /* border: 1px solid blue; */
+}
+
+.triangulo {
+    width: 210px;
     aspect-ratio: 1;
     transform: rotate(45deg);
     transition: transform 1s ease-in-out;
-    background-color: #0094ffff;
+    background: linear-gradient(to top, rgb(20, 90, 241), rgb(0, 132, 255));
     border-radius: 60px;
     border: 7px solid white;
     box-shadow: 0 13px 23px rgba(0, 0, 0, 0.24);
-    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
 }
 
 .triangulo:hover {
     transform: none;
     transition: transform 1s ease-in-out;
+    width: 300px;
+    border-radius: 60px;
+}
+
+.triangulo:hover ~ .titulo-triangulo {
+    display: none;
 }
 
 .triangulo:hover img {
     display: none;
 }
 
-.triangulo:hover h2{
-    display: block;
-    color:  rgb(54, 54, 54);
-    text-align: center;
-}
-
 .triangulo:hover p{
     display: block;
-    color:  rgb(54, 54, 54);
+    color:  rgb(255, 255, 255);
     text-align: center;
-    font-size: 20px;
+    font-size: 1em;
+    letter-spacing: 2;
+    padding: 15px 25px;
+    line-height: 25px;
 }
 
 .triangulo img {
@@ -408,39 +431,21 @@ body {
 
 }
 
+#ic1 {
+    width: 120px;
+    margin-right: 20px;
+}
+
 .triangulo h2, .triangulo p{
     display: none;
 }
 
-#ic1 {
-    width: 120px;
-    position: relative;
-    top: 15px;
-    left: 25px;
-}
-
-#ic2 {
-    position: relative;
-    top: 60px;
-    left: 30px;
-}
-
-#ic3 {
-    position: relative;
-    top: 40px;
-    left: 35px;
-}
 
 .titulo-triangulo {
     /* border: 1px solid green; */
-    width: 100%;
+    margin-top: 30px;
+    width: 120px;
     height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: absolute;
-    left: 10px;
-    top: 380px;
     color: rgb(83, 83, 83);
 }
 

@@ -23,6 +23,8 @@ if (container) {
 document.addEventListener("DOMContentLoaded", function() {
     const menuIcon = document.querySelector('.hamburguer');
     const menu = document.querySelector('.menu-hamb');
+
+    menu.style.display = "none";
     
     menuIcon.addEventListener('click', function() {
         if (menu.style.display === "none" || menu.style.display === "") {

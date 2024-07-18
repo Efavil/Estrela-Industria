@@ -1,11 +1,11 @@
 const images = [
     '../img/test.jpg',
-    '../img/metalurgica-10.jpg'
+    '../img/serralheiro-cortando-metal.jpg'
     ,'../img/test2.jpg'
 ];
 
 let currentIndex = 0;
-const container = document.getElementById('Image');
+const container = document.querySelector('#Image');
 
 if (container) {
     function changeBackgroundImage() {

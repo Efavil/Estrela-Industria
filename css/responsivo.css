@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* Smartphones (600px para baixo) */
 @media screen and (max-width: 600px) {
 
@@ -101,6 +103,7 @@
         position: relative;
         left: 35px;
     }
+    
     #Card-Image img:hover{
         display: none;
     }
@@ -131,11 +134,13 @@
 
     .menu-hamb {
         display: flex;
+        z-index: 10;
     }
 
     .hamburguer {
         display: flex;
     }
+
 
     .Materiais div {
         width: 100%;
@@ -205,10 +210,6 @@
         display: none;
     }
 
-    .menu-hamb {
-        display: flex;
-    }
-
     .hamburguer {
         display: flex;
     }
@@ -252,6 +253,7 @@
         margin-bottom: 0;
         padding-right: 0;
     }
+    
     .Card-Product {
         height: 150px;
         width: 150px;
@@ -261,6 +263,7 @@
         position: relative;
         left: 15px;
     }
+
     #Card-Image img:hover{
         display: none;
     }

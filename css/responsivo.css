@@ -98,9 +98,6 @@
         bottom: 50px;
     }
     
-    .footer-left {
-        margin-left: 10px;
-    }
 
     .footer-right {
         margin-left: 10px;
@@ -308,6 +305,7 @@
     .box-triangulo {
         width: 100vw;
         padding: 10px 0;
+        padding-left: 5px;
     }
 
     .triangulo {

@@ -98,10 +98,21 @@
         bottom: 50px;
     }
     
+    .footer-left {
+        margin-left: 10px;
+    }
+
+    .footer-right {
+        margin-left: 10px;
+    }
 
      .footer-middle hr {
         position: relative;
-        left: 35px;
+        left: 45px;
+    }
+
+    .footer-bottom {
+        padding-left: 10px;
     }
     
     #Card-Image img:hover{
@@ -295,12 +306,12 @@
     }
     
     .box-triangulo {
-        width: 600px;
+        width: 100vw;
         padding: 10px 0;
     }
 
     .triangulo {
-        width: 230px;
+        width: 210px;
     }
 
     .titulo-triangulo {

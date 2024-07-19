@@ -7,8 +7,9 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
@@ -247,6 +248,10 @@ body {
     cursor: pointer;
 }
 
+#Card-Image img {
+    width: 225px;
+}
+
 .Card-2 > #Card-Image > div > p {
     padding-top: 10px;
 }
@@ -254,7 +259,7 @@ body {
 .Text-2 p {
     margin-bottom: 180px;
     padding-right: 13%;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     position: relative;
 }
@@ -262,7 +267,7 @@ body {
 .Text-1 p {
     padding-left: 50px;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .Materiais b {
@@ -397,7 +402,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 15px;
-    width: 400px;
+    width: 100vw;
     height: 450px;
     text-align: center;
     /* border: 1px solid blue; */

@@ -1,7 +1,7 @@
 const images = [
-    'img/test.jpg',
-    'img/serralheiro-cortando-metal.jpg'
-    ,'img/test2.jpg'
+    './img/test.jpg',
+    './img/serralheiro-cortando-metal.jpg'
+    ,'./img/test2.jpg'
 ];
 
 let currentIndex = 0;

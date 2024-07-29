@@ -14,25 +14,28 @@
     .menu-hamb {
         display: flex;
     }
+
     .hamburguer {
         display: flex;
     }
 
-    #Image{
+    #Image {
         height: 500px;
     }
+
     .text h1 {
         font-size: 20px;
         position: relative;
         bottom: 220px;
     }
+
     .text h3 {
         font-size: 8px;
         bottom: 230px;
         right: -10px;
     }
-    
-    #p-image{
+
+    #p-image {
         position: relative;
         font-size: 10px;
         width: 300px;
@@ -92,28 +95,25 @@
     .Text h1 {
         font-size: 25px;
     }
+
     .Card-Product {
         height: 60px;
         width: 60px;
         bottom: 50px;
     }
-    
+
 
     .footer-right {
         margin-left: 10px;
     }
 
-     .footer-middle hr {
+    .footer-middle hr {
         position: relative;
         left: 45px;
     }
 
     .footer-bottom {
         padding-left: 10px;
-    }
-    
-    #Card-Image img:hover{
-        display: none;
     }
 
     .Card-1 div p {
@@ -197,11 +197,12 @@
     }
 
 
-     .footer-middle hr {
+    .footer-middle hr {
         position: relative;
         left: 20px;
     }
-    #Card-Image img:hover{
+
+    #Card-Image img:hover {
         display: none;
     }
 
@@ -213,7 +214,7 @@
     .navbar {
         position: absolute;
     }
-    
+
     .menu {
         display: none;
     }
@@ -261,7 +262,7 @@
         margin-bottom: 0;
         padding-right: 0;
     }
-    
+
     .Card-Product {
         height: 150px;
         width: 150px;
@@ -272,10 +273,6 @@
         left: 15px;
     }
 
-    #Card-Image img:hover{
-        display: none;
-    }
-
 }
 
 /* Dispostivos Largos (laptops/desktops, 992px para cima) */
@@ -284,24 +281,21 @@
     .Materiais div {
         width: 50%;
     }
-    
-    #Card-Image img:hover{
-        display: none;
-    }
-    #Card-Image{
+
+    #Card-Image {
         justify-content: center;
     }
 
 }
 
 @media screen and (max-width: 993px) {
-    
+
     .pilares {
         flex-direction: column;
         height: 60%;
-        
+
     }
-    
+
     .box-triangulo {
         width: 100vw;
         padding: 10px 0;
